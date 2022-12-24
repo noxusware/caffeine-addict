@@ -1,8 +1,15 @@
 'use strict';
 
 
+$( document ).ready(function() {
+  console.log('In Jquery')
+  $("#tabs").tabs({
+    active:0
+  })
+});
 
 // add event on multiple elements
+
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0; i < elements.length; i++) {
