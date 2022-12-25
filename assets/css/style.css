@@ -639,7 +639,13 @@ body.active { overflow: hidden; }
 .feature .btn { margin-block-start: 40px; }
 
 
+.menu-card .card-title{
+  font-size: 16px;
+}
 
+.menu-card .card-price{
+  font-size: 18px;
+}
 
 
 /*-----------------------------------*\
