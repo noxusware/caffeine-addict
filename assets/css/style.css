@@ -587,6 +587,7 @@ body.active { overflow: hidden; }
   width:100px;
   border-radius: var(--radius-5);
   margin-block-end: 15px;
+  background: transparent;
 }
 
 .menu-card .card-content { display: grid; }
