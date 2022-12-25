@@ -244,7 +244,7 @@ body.active { overflow: hidden; }
   position: relative;
 }
 
-.hero .has-bg-image::before{
+.header-has-bg-image::before{
   content: "";
   position: absolute;
   height: 100%;
