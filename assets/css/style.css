@@ -241,6 +241,17 @@ body.active { overflow: hidden; }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.has-bg-image::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  opacity: 0.5;
 }
 
 .section-title { margin-block-start: 10px; }
