@@ -601,12 +601,12 @@ body.active { overflow: hidden; }
   text-align: right;
 }
 
-.menu-card .card-price::before {
+/* .menu-card .card-price::before {
   top: 50%;
   right: 55px;
   width: calc(10%);
   border-block-end: 3px dotted var(--camel);
-}
+} */
 
 
 
