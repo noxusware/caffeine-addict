@@ -756,6 +756,11 @@ body.active { overflow: hidden; }
   margin-inline-start: 18px;
 }
 
+.logo-footer{
+  display: flex;
+  justify-content: center;
+}
+
 .footer-list .span { color: var(--camel); }
 
 .footer-list .wrapper {
@@ -772,6 +777,11 @@ body.active { overflow: hidden; }
   color: var(--camel);
   font-size: 35px;
   --ionicon-stroke-width: 35px;
+}
+
+.powered-by{
+  display: flex;
+  justify-content: center;
 }
 
 .footer-list .grid-list {
