@@ -496,6 +496,35 @@ body.active { overflow: hidden; }
   color: var(--white);
 }
 
+.popup-container{
+  position: fixed;
+  z-index: 2;
+  top:0;
+  left:0;
+  display: none;
+  right:0;
+  bottom:0;
+}
+.popup-wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup{
+  width: 80%;
+  border: 1px solid var(--camel);
+  border-radius: 10px;
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
+  background: var(--rich-black-fogra-39);
+}
+.popup-img{
+  
+  width: 100%;
+}
+
 .menu .button-group{
   display: flex;
   align-items:center;

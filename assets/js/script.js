@@ -6,7 +6,21 @@ $( document ).ready(function() {
   $("#tabs").tabs({
     active:0
   })
+
 });
+
+function togglePopup(name){
+  $(".popup").each(function() {
+    $(this).css('display','none')
+  });
+  
+  
+  if(name)
+    $(`.popup[name="${name}"]`).css('display','flex')
+
+  $(".popup-container").toggle();
+
+}
 
 // add event on multiple elements
 

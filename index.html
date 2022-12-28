@@ -253,8 +253,8 @@
 
           <ul class="grid-list" style="margin-bottom: 8rem;">
 
-            <li>
-              <a href="#" class="service-card" data-reveal>
+            <li onclick="togglePopup('coldcoffee')">
+              <a  class="service-card" data-reveal>
 
                 <figure class="card-banner">
                   <img src="./assets/images/menu-5.jpg" width="450" height="350" loading="lazy" alt="Restaurant Menu"
@@ -270,8 +270,8 @@
               </a>
             </li>
 
-            <li>
-              <a href="#" class="service-card" data-reveal>
+            <li onclick="togglePopup('blueberry')">
+              <a  class="service-card" data-reveal>
 
                 <figure class="card-banner">
                   <img src="./assets/images/service-1.jpg" width="450" height="350" loading="lazy" alt="Coffee Menu"
@@ -287,8 +287,8 @@
               </a>
             </li>
 
-            <li>
-              <a href="#" class="service-card" data-reveal>
+            <li onclick="togglePopup('hotchocolate')">
+              <a  class="service-card" data-reveal>
 
                 <figure class="card-banner">
                   <img src="./assets/images/service-3.jpg" width="450" height="350" loading="lazy" alt="Food Services"
@@ -305,6 +305,47 @@
             </li>
 
           </ul>
+
+          <div class="popup-container">
+            <div class="popup-wrapper">
+              <div name="coldcoffee" class="popup">
+                <div>
+                  <img  src="./assets/images/coldcoffee.jpg"  loading="lazy" 
+                  alt="Americano Coffee" class="popup-img">
+                </div>
+                <div style="padding:18px">
+                  <h2>Cold Coffee</h2>
+                <p></p>
+                <button  onclick="togglePopup()" style="margin-top:18px;width: 100%;" class="btn btn-secondary">Close</button>
+                </div>
+                
+              </div>
+              <div name="blueberry" class="popup">
+                <div>
+                  <img  src="./assets/images/blueberry.jpg"  loading="lazy" 
+                  alt="Americano Coffee" class="popup-img">
+                </div>
+                <div style="padding:18px">
+                  <h2>Blueberry Shake</h2>
+                <p></p>
+                <button  onclick="togglePopup()" style="margin-top:18px;width: 100%;" class="btn btn-secondary">Close</button>
+                </div>
+                
+              </div>
+              <div name="hotchocolate" class="popup">
+                <div>
+                  <img  src="./assets/images/coldcoffee.jpg"  loading="lazy" 
+                  alt="Americano Coffee" class="popup-img">
+                </div>
+                <div style="padding:18px">
+                  <h2>Hot Chocolate</h2>
+                <p></p>
+                <button  onclick="togglePopup()" style="margin-top:18px;width: 100%;" class="btn btn-secondary">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
