@@ -513,6 +513,7 @@ body.active { overflow: hidden; }
 }
 .popup{
   width: 80%;
+  max-width: 300px;
   border: 1px solid var(--camel);
   border-radius: 10px;
   display: none;
